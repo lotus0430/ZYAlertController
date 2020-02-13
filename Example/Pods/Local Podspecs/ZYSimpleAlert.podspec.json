@@ -1,0 +1,22 @@
+{
+  "name": "ZYSimpleAlert",
+  "version": "0.1.0",
+  "summary": "测试自定义pod库：简易弹出框，显示“Hello Word !”",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lotus0430/ZYSimpleAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lotus0430": "lotus0430@126.com"
+  },
+  "source": {
+    "git": "https://github.com/lotus0430/ZYSimpleAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZYSimpleAlert/Classes/**/*"
+}

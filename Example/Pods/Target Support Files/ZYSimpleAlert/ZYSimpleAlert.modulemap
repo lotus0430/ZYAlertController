@@ -1,0 +1,6 @@
+framework module ZYSimpleAlert {
+  umbrella header "ZYSimpleAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

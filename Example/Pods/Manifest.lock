@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+  - ZYSimpleAlert (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - ZYSimpleAlert (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  ZYSimpleAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  ZYSimpleAlert: 372b52e70074656679d80750502383d410bc52ca
+
+PODFILE CHECKSUM: b80b67976135179ffeec821100ce7a2ae1b090c0
+
+COCOAPODS: 1.8.4

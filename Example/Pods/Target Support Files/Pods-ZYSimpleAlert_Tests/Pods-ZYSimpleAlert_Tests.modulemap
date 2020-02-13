@@ -1,0 +1,6 @@
+framework module Pods_ZYSimpleAlert_Tests {
+  umbrella header "Pods-ZYSimpleAlert_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

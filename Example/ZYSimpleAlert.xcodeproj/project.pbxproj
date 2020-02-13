@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		00E851189BDFEFB907BE1AC9 /* Pods_ZYSimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYSimpleAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11EA3A7A773C848F692AD740 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		11EA3A7A773C848F692AD740 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		22B87BD77F18A9052E9FA6A4 /* Pods-ZYSimpleAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSimpleAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZYSimpleAlert_Example/Pods-ZYSimpleAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		37104A5413F30BEF08F57DE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37104A5413F30BEF08F57DE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYSimpleAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYSimpleAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		966AD28C60FADA159454810E /* Pods-ZYSimpleAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSimpleAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZYSimpleAlert_Tests/Pods-ZYSimpleAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A739799FA648327048FC5BC7 /* ZYSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYSimpleAlert.podspec; path = ../ZYSimpleAlert.podspec; sourceTree = "<group>"; };
+		A739799FA648327048FC5BC7 /* ZYSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYSimpleAlert.podspec; path = ../ZYSimpleAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA5A00BB9289F65EEDAB0035 /* Pods-ZYSimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSimpleAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZYSimpleAlert_Tests/Pods-ZYSimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CEB907A0D3F193EE58606856 /* Pods-ZYSimpleAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSimpleAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-ZYSimpleAlert_Example/Pods-ZYSimpleAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1991BA572EB4DE4A88D0A48 /* Pods_ZYSimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYSimpleAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				966AD28C60FADA159454810E /* Pods-ZYSimpleAlert_Tests.debug.xcconfig */,
 				CA5A00BB9289F65EEDAB0035 /* Pods-ZYSimpleAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
